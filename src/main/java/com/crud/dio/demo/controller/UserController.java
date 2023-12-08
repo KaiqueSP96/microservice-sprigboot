@@ -17,6 +17,8 @@ import com.crud.dio.demo.model.UserModel;
 import com.crud.dio.demo.service.UserService;
 
 import jakarta.validation.Valid;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @RestController
 @RequestMapping("/v1/users")
